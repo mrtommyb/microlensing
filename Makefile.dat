@@ -2,7 +2,7 @@ SWIG = swig -c++ -python
 GCC = g++ -O3 -fPIC
 
 # The following directory may be difference in difference machines. To find the correct one in your machine, do "locate Python.h" #
-IDIR = /usr/custom/Anaconda-2.0.1/include/python2.7/
+IDIR = /Users/tom/.virtualenvs/p2/include/python2.7/
 
 .PHONY: all
 all: _VBBinaryLensingLibrary.so
